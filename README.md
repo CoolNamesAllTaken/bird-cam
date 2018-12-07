@@ -2,12 +2,15 @@
 This project is created with the objective of using camera-based motion detection to capture pictures of birds at a window bird feeder.  As configured, this code is meant to run on a raspberry pi using a pi camera in conjunction with the [motion firmware](https://motion-project.github.io).
 
 ## Relevant Ports
+
 Live Camera Stream: 8081
+
 SSH: 8082
 
 ![image of birb](https://i.imgur.com/HvVQGKY.jpg)
 
 ## Overview
+
 ### Folder Structure
 * `images/` contains disk images for setting up the raspberry pi
 * `src/` contains scripts that will be put into the `/home` folder on the pi
